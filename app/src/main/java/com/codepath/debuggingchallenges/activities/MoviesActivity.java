@@ -44,7 +44,7 @@ public class MoviesActivity extends AppCompatActivity {
 
 
     private void fetchMovies() {
-        String url = "https://api.themoviedb.org/3/movie/now_playing?api_key=243dff74276d7c0f7353e4f1ec2777b6";
+        String url = "https://api.themoviedb.org/3/movie/now_playing?api_key=";
         AsyncHttpClient client = new AsyncHttpClient();
         client.get(url, null, new JsonHttpResponseHandler() {
             @Override
